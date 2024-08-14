@@ -1,11 +1,12 @@
 // Define custom colors equivalent to Tailwind gray shades with increments of 50
 const customColors = [
-  "#f9fafb", // bg-gray-50
-  "#f3f4f6", // bg-gray-100
-  "#e5e7eb", // bg-gray-200
-  "#d6d8da", // bg-gray-300
-  "#9ca3af", // bg-gray-400
-];
+    "rgba(249, 250, 251, 0.65)", // bg-gray-50
+    "rgba(243, 244, 246, 0.65)", // bg-gray-100
+    "rgba(229, 231, 235, 0.65)", // bg-gray-200
+    "rgba(214, 216, 218, 0.65)", // bg-gray-300
+    "rgba(156, 163, 175, 0.65)", // bg-gray-400
+  ];
+  
 
 // Utility function to generate a background color class based on index
 function getBackgroundColorClass(index) {
