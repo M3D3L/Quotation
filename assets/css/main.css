@@ -144,9 +144,11 @@ ul {
     width: 100%;
     border-radius: 0.375rem;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .unit-title {
@@ -215,6 +217,18 @@ ul {
     border-bottom: 1px solid #e2e8f0;
 }
 
+.breakdown-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hide-border {
+    border-bottom: none !important;
+}
+
 .amount-value {
     font-weight: bold;
     font-size: 1rem;
@@ -252,4 +266,11 @@ ul {
     font-weight: bold;
     font-size: 1.125rem;
     color: #1a202c;
+}
+
+/* Utility */
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
