@@ -118,8 +118,8 @@ export function generateBreakdownCard(item, index) {
           <div class="flex-row">
 
             <div class="breakdown-detail hide-border">
-             <span class="detail-key">Code:</span>
-             <p class="detail-value">${item.code}</p>
+             <span class="detail-key">Code: </span>
+             <p class="detail-value"> ${item.code}</p>
           </div>
             <p class="amount-value">$${item.amount.toFixed(2)}</p>
           </div>
@@ -144,10 +144,7 @@ export function generateTotalCostCard(dataArray) {
   return `
     <div class="total-cost-card">
        <h2 class="total-cost-title">Total Cost</h2>
-       <div class="total-cost-details">
-          <span class="total-cost-label">TOTAL:</span>
-          <p class="total-cost-value">$${totalAmount.toFixed(2)}</p>
-       </div>
+        <p class="total-cost-value">$${totalAmount.toFixed(2)}</p>
     </div>
     `;
 }
