@@ -42,12 +42,12 @@
          </div>
       </div>
       <script type="module">
-         import { renderClientInfoSection } from "./assets/js/clientInfoSection.js";
-         import { renderUnitCards } from "./assets/js/unitCard.js";
-         import { renderDescriptionSection } from "./assets/js/descriptionSection.js";
-         import { renderBreakdownCards } from "./assets/js/breakdownCard.js";
-         import { renderTotalCostCard } from "./assets/js/totalCostCard.js";
-         import { renderDynamicTable } from "./assets/js/dynamicTable.js";
+         import { renderClientInfoSection } from "./assets/js/components/clientInfoSection.js";
+         import { renderUnitCards } from "./assets/js/components/unitCard.js";
+         import { renderDescriptionSection } from "./assets/js/components/descriptionSection.js";
+         import { renderBreakdownCards } from "./assets/js/components/breakdownCard.js";
+         import { renderTotalCostCard } from "./assets/js/components/totalCostCard.js";
+         import { renderDynamicTable } from "./assets/js/components/dynamicTable.js";
          
          // PHP variables passed to JavaScript
          const clientData = {

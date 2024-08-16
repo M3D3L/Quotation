@@ -1,4 +1,4 @@
-import { getBackgroundColorClass } from "./customColors.js";
+import { getBackgroundColorClass } from "../utilities/customColors.js";
 
 export function generateUnitCard(item, index) {
   const backgroundColor = getBackgroundColorClass(index);
