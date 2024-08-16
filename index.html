@@ -14,22 +14,22 @@
       <div class="container">
          <!-- Header -->
          <div class="header">
-            <div class="quote-top" id="quote-top"></div>
+            <div id="client-info-section" class="quote-top"></div>
             <!-- Table Components -->
-            <div id="table-desktop" class="hide-on-mobile"></div>
-            <ul id="table-card" class="table-card hide-on-desktop"></ul>
+            <div id="dynamic-table-desktop" class="hide-on-mobile"></div>
+            <ul id="unit-cards" class="table-card hide-on-desktop"></ul>
             <!-- Description -->
             <div class="description">
                <p><strong>Description:</strong></p>
-               <p id="description"></p>
+               <p id="description-section"></p>
             </div>
             <!-- Cost Breakdown -->
-            <div id="breakdown-desktop" class="hide-on-mobile"></div>
+            <div id="breakdown-table-desktop" class="hide-on-mobile"></div>
             <div class="breakdown-container">
                <!-- Breakdown List -->
-               <ul id="breakdown-list" class="breakdown-list hide-on-desktop"></ul>
+               <ul id="breakdown-cards" class="breakdown-list hide-on-desktop"></ul>
                <!-- Total Card -->
-               <div class="total-card" id="total-card"></div>
+               <div id="total-cost-card" class="total-card"></div>
             </div>
             <!-- Footer -->
             <div class="footer">
@@ -137,13 +137,13 @@
          ];
          
          document.addEventListener("DOMContentLoaded", () => {
-           renderClientInfoSection("quote-top", clientData);
-           renderUnitCards("table-card", tableData);
-           renderDynamicTable("table-desktop", tableData);
-           renderDescriptionSection("description", description);
-           renderBreakdownCards("breakdown-list", breakdownData);
-           renderDynamicTable("breakdown-desktop", breakdownData);
-           renderTotalCostCard("total-card", breakdownData);
+           renderClientInfoSection("client-info-section", clientData);
+           renderUnitCards("unit-cards", tableData);
+           renderDynamicTable("dynamic-table-desktop", tableData);
+           renderDescriptionSection("description-section", description);
+           renderBreakdownCards("breakdown-cards", breakdownData);
+           renderDynamicTable("breakdown-table-desktop", breakdownData);
+           renderTotalCostCard("total-cost-card", breakdownData);
          });
       </script>
    </body>
