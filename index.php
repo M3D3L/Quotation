@@ -13,8 +13,8 @@
    <body class="body">
       <div class="container">
          <!-- Header -->
-         <div class="header">
-            <div id="client-info-section" class="quote-top"></div>
+         <main class="main">
+            <header id="client-info-section" class="quote-top"></header>
             <!-- Table Components -->
             <div id="dynamic-table-desktop" class="hide-on-mobile"></div>
             <ul id="unit-cards" class="table-card hide-on-desktop"></ul>
@@ -32,14 +32,14 @@
                <div id="total-cost-card" class="total-card"></div>
             </div>
             <!-- Footer -->
-            <div class="footer">
+            <footer class="footer">
                <p>Thank you for your business!</p>
                <p>
                   If you have any questions about this quotation, please contact us at
                   855-393-8950.
                </p>
-            </div>
-         </div>
+            </footer>
+         </main>
       </div>
       <script type="module">
          import { renderClientInfoSection } from "./assets/js/components/clientInfoSection.js";

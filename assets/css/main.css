@@ -24,8 +24,8 @@ ul {
     box-sizing: border-box;
 }
 
-/* Header */
-.header {
+/* Main */
+.main {
     display: flex;
     flex-direction: column;
     width: 100%;
